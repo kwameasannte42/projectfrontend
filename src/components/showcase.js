@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const Showcase = () => {
   return (
@@ -6,9 +7,9 @@ const Showcase = () => {
       <div className='showcase-overlay'>
         <h1>Queen City Tours</h1>
 
-        <a href="./attractions" className="btn btn-danger">
+        <Link to="./attractions" className="btn btn-danger">
           Visit Us
-        </a>
+        </Link>
       </div>
     </section>
   );
