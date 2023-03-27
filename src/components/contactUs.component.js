@@ -52,7 +52,7 @@ export default class contactUs extends Component {
     };
     console.log(contact);
     axios
-      .post("http://localhost:5000/contactus/add", contact)
+      .post("https://qctbackend.onrender.com/contactus/add", contact)
       .then((res) => console.log(res.data));
     this.setState({ showAlert: true }); // set showAlert to true after form submission
     // window.location="/"

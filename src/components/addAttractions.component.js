@@ -88,7 +88,7 @@ export default class addAttractions extends Component {
     console.log(attraction);
 
     axios
-      .post("http://localhost:5000/attractions/add", attraction)
+      .post("https://qctbackend.onrender.com/attractions/add", attraction)
       .then((res) => console.log(res.data));
 
     window.location = "/attractions";

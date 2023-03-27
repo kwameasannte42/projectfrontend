@@ -17,7 +17,7 @@ export default class oneAttraction extends Component {
   }
   componentDidMount() {
     axios
-      .get("http://localhost:5000/attractions/" + this.props.match.params.id)
+      .get("https://qctbackend.onrender.com/attractions/" + this.props.match.params.id)
       .then((response) => {
         this.setState({
           attraction: response.data.attraction,
