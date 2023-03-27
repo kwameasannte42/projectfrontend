@@ -1,0 +1,36 @@
+.body-page { 
+background: linear-gradient(90deg, 
+    rgba(0,78,137,1) 0%, 
+    rgba(26,101,158,1) 25%, 
+    rgba(239,239,208,1) 50%, 
+    rgba(247,197,159,1) 75%,
+    rgba(255,107,53,1) 100%); 
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .h1-page { font-size: 20vw; }
+  
+  .linear-wipe {
+    text-align: center;
+    
+    background: linear-gradient(to right, #FFF 20%, #FF0 40%, #FF0 60%, #FFF 80%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 1s linear infinite;
+  }
+  
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }

@@ -1,0 +1,28 @@
+.one-attraction {
+  height: 100vh;
+  background: linear-gradient(90deg, 
+  rgba(0,78,137,1) 0%, 
+  rgba(26,101,158,1) 25%, 
+  rgba(239,239,208,1) 50%, 
+  rgba(247,197,159,1) 75%,
+  rgba(255,107,53,1) 100%);
+}
+
+.lefty {
+  background-color: #FF6B35;
+  border-radius: 10px;
+}
+
+.righty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #1A659E;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.righty-head {
+  color: #FF6B35;
+}

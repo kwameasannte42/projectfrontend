@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+/* .containercontact{
+    width: 1000px!important;
+} */
+.pcontact{
+    font-size: 13.5px;
+}
+/* .h1contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+} */
+.bg-primarycontact{
+    background-color: #ff6b35 !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif!important;
+}
+
+.leftboxcontact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.form-control {
+    height: 36px;
+    background: white;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+.sidebarcontact{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control:focus,.form-control:active {
+    border-color: #004e89  !important;
+}
+.form-label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.btn1.btn-primary1 {
+    background: #004e89 !important;
+    border-color: #004e89!important;
+    color: #fff;
+    width: 100px;
+    border-radius: 5%!important;
+    padding: 5px;
+    
+}
+.btn1.btn-primary1:hover{
+    background-color: #1a659e!important;
+}
+
+.bi{
+    font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%!important;
+        padding-bottom: 207px!important;
+    }
+  }

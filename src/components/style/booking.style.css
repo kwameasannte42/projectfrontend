@@ -1,0 +1,83 @@
+/* Define colors */
+:root {
+  --primary-color: #004E89;
+  --secondary-color: #1A659E;
+  --tertiary-color: #EFEFD0;
+  --accent-color: #FF6B35;
+  --light-color: #F7C59F;
+}
+
+/* Container
+.container-booking {
+  max-width: 600px;
+  margin: 0 auto;
+} */
+
+/* Heading */
+.h1-booking {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004E89;
+  padding-top: 2rem;
+}
+
+.bookingbackground {
+  background: linear-gradient(90deg, 
+  rgba(0,78,137,1) 0%, 
+  rgba(26,101,158,1) 25%, 
+  rgba(239,239,208,1) 50%, 
+  rgba(247,197,159,1) 75%,
+  rgba(255,107,53,1) 100%);
+}
+
+/* Form */
+.form-booking {
+  padding-bottom: 40px;
+}
+
+/* Form labels */
+.form-group label {
+  font-weight: bold;
+  color: #1A659E;
+}
+
+/* Form inputs and textarea */
+.form-control {
+  border: 2px solid #EFEFD0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* Form inputs and textarea on focus */
+.form-control:focus {
+  border-color: #F7C59F;
+  box-shadow: 0 0 0 0.2rem rgba(247, 197, 159, 0.25);
+}
+
+/* Submit button */
+.btn-primary {
+  background-color: #FF6B35;
+  border: none;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+}
+
+/* Submit button on hover */
+.btn-primary:hover {
+  background-color: #F7C59F;
+}
+
+/* Alert */
+.alert-success {
+  background-color: #EFEFD0;
+  border-color: #F7C59F;
+  color: #1A659E;
+  font-weight: bold;
+}
+
+/* Alert close button */
+.alert-dismissible .close {
+  color: #1A659E;
+  font-size: 1.25rem;
+}

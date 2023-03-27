@@ -1,0 +1,22 @@
+
+
+
+.day {
+  border: 1px solid #ffff;
+  background-color: #cbcbc1;
+  
+}
+
+.day:hover {
+  background-color: #004E89;
+ 
+}
+
+.temp-high {
+  color: #FF6B35;
+}
+
+.temp-low {
+  color: #ffffff;
+}
+

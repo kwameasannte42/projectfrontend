@@ -1,0 +1,97 @@
+
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(255,107,53);
+  background: linear-gradient(90deg, 
+  rgba(0,78,137,1) 0%, 
+  rgba(26,101,158,1) 25%, 
+  rgba(239,239,208,1) 50%, 
+  rgba(247,197,159,1) 75%,
+  rgba(255,107,53,1) 100%);
+}
+
+.h1-addattraction {
+  color: #004E89;
+}
+
+.container-add {
+  width: 50%;
+}
+
+.body-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-add {
+  padding: 20px;
+}
+
+.form-control {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-primary-3 {
+  background-color: #004e89;
+  color: #fff;
+}
+
+.btn-primary-3:hover {
+  background-color: rgba(26,101,158,1);
+  color: white
+}
+
+.btn-success {
+  background-color: rgba(255,107,53,1);
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: rgba(247,197,159,1);
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-add {
+    width: 100%;
+  }
+  
+  .body-card {
+    padding: 10px;
+  }
+  
+  .form-control {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
