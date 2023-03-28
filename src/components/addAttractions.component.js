@@ -91,7 +91,7 @@ export default class addAttractions extends Component {
       .post("https://qctbackend.onrender.com/attractions/add", attraction)
       .then((res) => console.log(res.data));
 
-    window.location = "/attractions";
+    this.props.history.push('/attractions')
   };
 
   render() {
