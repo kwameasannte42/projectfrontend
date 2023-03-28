@@ -55,9 +55,7 @@ export default class About extends Component {
                     <h2>
                       Pritum Debnath<small>"Hannibal"</small>
                     </h2>
-                    <small>
-                      Web Developer
-                    </small>
+                    <small>Web Developer</small>
                     <div className="icon-block">
                       <a href="https://www.linkedin.com/in/pritum-debnath-140766104/">
                         <i className="bi bi-linkedin"></i>
@@ -86,9 +84,7 @@ export default class About extends Component {
                     <h2>
                       Douglas Easterling<small>"Faceman"</small>
                     </h2>
-                    <small>
-                      Web Developer
-                    </small>
+                    <small>Web Developer</small>
                     <div className="icon-block">
                       <a href="https://www.linkedin.com/in/douglas-e-67051b15b/">
                         <i className="bi bi-linkedin"></i>
@@ -117,9 +113,7 @@ export default class About extends Component {
                     <h2>
                       Gideon Asante<small>"B.A."</small>
                     </h2>
-                    <small>
-                      Web Developer
-                    </small>
+                    <small>Web Developer</small>
                     <div className="icon-block">
                       <a href="https://www.linkedin.com/in/gideonasanteacheampong/">
                         <i className="bi bi-linkedin"></i>
@@ -148,9 +142,7 @@ export default class About extends Component {
                     <h2>
                       Ibrahim Abdi<small>"Howling Mad"</small>
                     </h2>
-                    <small>
-                      Web Developer
-                    </small>
+                    <small>Web Developer</small>
                     <div className="icon-block">
                       <a href="https://www.linkedin.com/in/ibrahim-abdi-1b9001260/">
                         <i className="bi bi-linkedin"></i>
@@ -176,14 +168,12 @@ export default class About extends Component {
         <div className="container-fluid text-center text-white about-top">
           <p className="container cinci">
             Our website development project is led by a team of four talented
-            graduates from a web development bootcamp. Our front-end expert is
-            skilled in HTML, CSS, and JavaScript, while our back-end specialist
-            excels in languages like Python and Ruby on Rails. Our full-stack
-            developer seamlessly integrates features and functionalities, and
-            our quality assurance and testing specialist ensures that the
-            website meets the highest standards of quality. Together, we are
-            committed to creating a beautiful and functional website that
-            exceeds our clients' expectations.
+            graduates from a web development bootcamp at Kable Academy. We pride
+            ourselves with knowledge in front-end skills like HTML, CSS,
+            JavaScript, and React, as well as back-end skills in languages like
+            Node, Express and Wep API. With our new found knowledge in
+            full-stack development, we committed to creating this beautiful and
+            functional website that exceeds our expectations.
           </p>
         </div>
       </>
