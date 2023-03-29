@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-// import cincinnatiSkyline from '../assets/cincinnatiSkyline.jpeg';
-import "./style/attractions.css";
+import "../components/style/attractions.css";
 import { Helmet } from "react-helmet";
 
 const Attraction = (props) => {
@@ -47,7 +46,7 @@ export default class Attractions extends Component {
 
   componentDidMount() {
     axios
-      .get("https://qctbackend.onrender.com/attractions/")
+      .get("https://queencitytoursbackend.onrender.com/attractions/")
       .then((response) => {
         this.setState({
           attractions: response.data,
@@ -101,10 +100,7 @@ export default class Attractions extends Component {
         <Helmet>
           <title>{TITLE}</title>
         </Helmet>
-        <div>
-          <div className="showcaseattraction">
-            <div className="showcase-overlayattraction"></div>
-          </div>
+        <div id="attraction-list">
           <div className="backattractions">
             <h2 id="header">Posted Attractions</h2>
             <div className="filter-buttons">
